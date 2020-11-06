@@ -1,1 +1,219 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    max-width: 100%;
+    Margin:0 auto,
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* MY CSS STARTS HERE */
+/* Navbar and Header */
+h1{
+    font-size:2.5rem;
+}
+body{
+    background-color: rgba(103, 103, 248, 0.507);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+   background-color:white;
+    padding-bottom:1.5rem;
+    margin-bottom:1.5rem;
+    padding-top: 1.5rem;
+    margin-left:2rem;
+    margin-right: 2rem;
+    border-radius: 20px;
+    
+}
+
+
+.nav{
+    display: flex;
+    margin-left:22%;
+    font-family: 'Roboto';
+    font-size:1.5rem;
+    text-decoration: none;
+    text-align:center;
+    border:2px solid black;
+   
+    
+}
+/* #home{
+    color: black;
+    border:2px solid black;
+    width:7rem;
+    padding:2%;
+    text-decoration: none;    
+}
+#about{
+    color: black;
+    border:2px solid black;
+    width:7rem;
+    padding:2%;
+    text-decoration: none;
+}
+#about.hover{
+    color: black;
+    border:2px solid black;
+    width:7rem;
+    padding:2%;
+    text-decoration: none;
+}
+#projects{
+    color: black;
+    border:2px solid black;
+    width:7rem;
+    padding:2%;
+    text-decoration: none;
+    
+}
+#contact{
+    color: black;
+    border:2px solid black;
+    width:7rem;
+    padding:2%;
+    text-decoration: none; */
+
+    a{
+    color: black;
+    border:2px solid black;
+    width:7rem;
+    padding:2%;
+    text-decoration: none; */
+    }
+    a:active {
+        background-color: black;
+        color:white;
+        font-family: 'Dancing Script', cursive;
+        width:7rem;
+        padding:2%;
+        text-decoration: none;
+      } 
+    a:hover {
+        background-color:black;
+        color: white;
+        font-family: 'Dancing Script', cursive;
+        width:7rem;
+        padding:2%;
+        text-decoration: none;
+      } 
+
+/* Center fold picture and name */
+.img-container{
+    background-image: url("bangelepic.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-container{
+    text-align: Center;
+    color:white;
+    padding-top:20%;
+    padding-bottom:60%;
+    margin: 0 auto;
+    
+}
+#name{
+    font-size: 3rem;
+    background-color: #000000;
+    opacity:0.6;
+}
+#view-projects{
+    display:block;
+        color: blue;
+        font-family: 'Dancing Script', cursive;
+        font-size:2.5rem;
+        width:10rem;
+        Height:5rem;
+        text-decoration: none;
+        margin-left:5%;
+        border-radius: 10%;
+        border: 1px solid white;
+        background-color: #ffffff;
+        opacity:0.4;
+      
+}
+/* Flexbox gallery */
+img{
+    padding:1%;
+}
+.gallery{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+/* footer */
+.footer{
+    display:block;
+    width: 100%;
+    height:8rem;
+    background-color: rgb(83, 96, 109)
+    
+}
+p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    background-color: rgb(83, 96, 109);
+    color:white;
+    margin-left:20%;
+}
+
+#fcontact{
+  
+    font-family: 'Roboto';
+    font-size: 3rem;
+    border: 2px solid rgb(189, 189, 241);
+    background-color: rgb(83, 96, 109);
+    color:rgb(46, 152, 214);
+    margin-left:40%;
+    border-radius: 10px;
+    margin-bottom:1rem;
+    
+}
