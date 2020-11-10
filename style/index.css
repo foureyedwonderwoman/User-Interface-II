@@ -58,6 +58,7 @@ body{
 
 .header{
     display: flex;
+    color: rgb(5, 27, 75);
     justify-content: space-between;
    background-color:white;
     padding-bottom:1.5rem;
@@ -77,10 +78,11 @@ body{
     font-size:1.5rem;
     text-decoration: none;
     text-align:center;
-    border:2px solid black;
-   
-    
+    border:2px solid rgb(5, 27, 75); 
+    border-radius: 5px;  
 }
+
+   
 /* #home{
     color: black;
     border:2px solid black;
@@ -118,11 +120,13 @@ body{
     text-decoration: none; */
 
     a{
-    color: black;
-    border:2px solid black;
+    color: rgb(5, 27, 75);
+    border:2px solid rgb(5, 27, 75);
     width:7rem;
     padding:2%;
-    text-decoration: none; */
+    text-decoration: none; 
+    text-align: center;
+    border-radius: 4px;
     }
     a:active {
         background-color: black;
@@ -144,16 +148,17 @@ body{
 /* Center fold picture and name */
 .img-container{
     background-image: url("bangelepic.jpg");
-    background-size: auto;
+    background-size: 100%;
     background-repeat: no-repeat;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+    border-radius: 5px;
 }
 .text-container{
     text-align: Center;
     color:white;
     padding-top:20%;
-    padding-bottom:60%;
+    padding-bottom:30%;
     margin: 0 auto;
     
 }
@@ -188,6 +193,10 @@ img{
     justify-content: space-evenly;
     align-content: space-between;
 }
+.gallery .pic{
+  width: 500px;
+  height: 500px;
+}
 
 /* footer */
 .footer{
@@ -217,3 +226,29 @@ p{
     margin-bottom:1rem;
     
 }
+@media (max-width: 800px){
+    .nav{
+    display: flex;
+    
+    flex-wrap: wrap;
+    border:none;
+        }
+    .header{
+        display:flex;
+        flex-wrap: wrap;
+    } 
+    p{
+        font-size: 1.5rem;
+        padding: 10%;
+    } 
+    #fcontact{
+        margin-left: 1%;
+    }  
+    .gallery .pic{
+        .gallery .pic{
+            width: 50%;
+            height: 50%;
+          }
+          
+    }
+    }
